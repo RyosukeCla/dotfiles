@@ -10,3 +10,5 @@ main() {
 	cd ${DOT_DIR}
 	git pull origin master
 }
+
+main

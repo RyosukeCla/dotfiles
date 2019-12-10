@@ -16,3 +16,5 @@ main() {
 	cd ${DOT_DIR}
   brew bundle
 }
+
+main
