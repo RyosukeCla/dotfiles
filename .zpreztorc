@@ -1,0 +1,21 @@
+#
+# Sets Prezto options.
+#
+
+zstyle ':prezto:load' pmodule \
+  'environment' \
+  'history' \
+  'directory' \
+  'spectrum' \
+  'completion' \
+  'history-substring-search' \
+  'autosuggestions' \
+  'prompt'
+
+zstyle ':prezto:module:autosuggestions:color' found ''
+
+zstyle ':prezto:module:prompt' theme 'ryosuke'
+
+
+# Set the SSH identities to load into the agent.
+# zstyle ':prezto:module:ssh:load' identities 'id_rsa' 'id_rsa2' 'id_github'
