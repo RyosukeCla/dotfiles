@@ -14,9 +14,9 @@ main() {
 }
 
 config_git() {
-	git config user.name RyosukeCla
-	git config user.email RyosukeCla@users.noreply.github.com
-	git config core.ignorecase false
+	git config --global user.name RyosukeCla
+	git config --global user.email RyosukeCla@users.noreply.github.com
+	git config --global core.ignorecase false
 }
 
 get_repo() {
