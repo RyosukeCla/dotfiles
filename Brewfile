@@ -1,5 +1,5 @@
 # Brewfile
-tap "homebrew/cask-cask"
+tap "homebrew/cask"
 tap "homebrew/bundle"
 tap "homebrew/core"
 tap "jesseduffield/lazydocker"
