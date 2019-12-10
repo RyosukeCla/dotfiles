@@ -1,0 +1,18 @@
+# Brewfile
+tap "caskroom/cask"
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "jesseduffield/lazydocker"
+
+brew "direnv"
+brew "fswatch"
+brew "fzf"
+brew "lazydocker"
+brew "nvm"
+brew "peco"
+cask "avira-antivirus"
+cask "docker"
+cask "google-chrome"
+cask "iterm2"
+cask "slack"
+cask "visual-studio-code"
