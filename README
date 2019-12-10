@@ -1,3 +1,4 @@
+# install
 
 ```
 curl https://raw.githubusercontent.com/RyosukeCLa/dotfiles/master/install.sh | bash
