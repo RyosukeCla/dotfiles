@@ -1,5 +1,5 @@
 # install
 
 ```
-curl https://raw.githubusercontent.com/RyosukeCLa/dotfiles/master/install.sh | bash
+curl https://raw.githubusercontent.com/RyosukeCla/dotfiles/master/install.sh | bash
 ```
