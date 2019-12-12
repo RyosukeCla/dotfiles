@@ -35,3 +35,12 @@ EOT
 $ ssh -T git@github.com
 # enter passphrase
 ```
+
+## karabiner elements setup
+
+- launch karabiner elements preferences
+- go to complex modifications settings
+- import rule from the internet, and search `option + f/b to option + arrow`
+- import and add it.
+- go to simple modifications settings
+- bind `caps_lock` to `left_control`
