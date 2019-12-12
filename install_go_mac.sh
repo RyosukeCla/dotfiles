@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DIR=$(cd $(dirname $0); pwd)
-TMP_DIR=${DIR}/tmp
+DOT_DIR="$HOME/.config/ryosuke-dotfiles"
+TMP_DIR=${DOT_DIR}/tmp
 
 mkdir -p $TMP_DIR
 curl -L https://dl.google.com/go/go1.13.5.darwin-amd64.tar.gz -o $TMP_DIR/go1.13.5.darwin-amd64.tar.gz

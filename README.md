@@ -18,6 +18,12 @@ curl https://raw.githubusercontent.com/RyosukeCla/dotfiles/master/update.sh | ba
 curl https://raw.githubusercontent.com/RyosukeCla/dotfiles/master/install_brew.sh | bash
 ```
 
+## go installation
+
+```sh
+curl https://raw.githubusercontent.com/RyosukeCla/dotfiles/master/install_go_mac.sh | bash
+```
+
 ## setup ssh key for github
 
 ```bash
@@ -45,11 +51,3 @@ $ ssh -T git@github.com
 - import and add it.
 - go to simple modifications settings
 - bind `caps_lock` to `left_control`
-
-## go installation
-
-```sh
-$ mkdir -p /tmp/var/repo/
-$ curl -L https://dl.google.com/go/go1.13.5.darwin-amd64.tar.gz -o /tmp/var/repo/go1.13.5.darwin-amd64.tar.gz
-$ tar zxvf /tmp/var/repo/go1.13.5.darwin-amd64.tar.gz
-```
