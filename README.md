@@ -31,6 +31,7 @@ Host github github.com
   HostName github.com
   IdentityFile ~/.ssh/github_rsa
   User git
+  AddKeysToAgent yes
 EOT
 $ ssh -T git@github.com
 # enter passphrase
