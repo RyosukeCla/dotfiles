@@ -17,3 +17,21 @@ curl https://raw.githubusercontent.com/RyosukeCla/dotfiles/master/update.sh | ba
 ```
 curl https://raw.githubusercontent.com/RyosukeCla/dotfiles/master/install_brew.sh | bash
 ```
+
+## setup ssh key for github
+
+```bash
+$ ssh-keygen -t rsa -b 4096 -C "mail@address"
+# enter passphrase
+# and gen key to ~/.ssh/github_rsa
+$ pbcopy < ~/.ssh/github_rsa.pub
+# set up ssh public key on github
+$ cat <<EOT >> ~/.ssh/config
+Host github github.com
+  HostName github.com
+  IdentityFile ~/.ssh/github_rsa
+  User git
+EOT
+$ ssh -T git@github.com
+# enter passphrase
+```
