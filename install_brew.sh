@@ -6,17 +6,17 @@
 DOT_DIR="$HOME/.config/ryosuke-dotfiles"
 
 main() {
-	echo "run install_brew.sh ..."
+  echo "run install_brew.sh ..."
   if hash brew 2>/dev/null; then
     echo "brew has already installed"
   else
     # install homebrew
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    mkdir -p $HOME/.nvm
   fi
 
-	cd ${DOT_DIR}
+  cd ${DOT_DIR}
   brew bundle
+  mkdir -p $HOME/.nvm
 }
 
 main
