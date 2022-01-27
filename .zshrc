@@ -22,5 +22,5 @@ function select-history() {
 zle -N select-history
 bindkey '^r' select-history
 
-export PATH=/opt/homebrew/bin/:$PATH
 export PATH=${HOME}/.config/ryosuke-dotfiles/tmp/go/bin:$PATH
+eval $(/opt/homebrew/bin/brew shellenv)
