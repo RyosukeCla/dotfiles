@@ -8,6 +8,4 @@ curl -L https://go.dev/dl/go1.17.6.darwin-arm64.tar.gz -o $TMP_DIR/go1.17.6.darw
 cd $TMP_DIR
 tar zxvf $TMP_DIR/go1.17.6.darwin-arm64.tar.gz
 
-ln -s ${TMP_DIR}/go/bin/go /usr/local/bin/go
-
-echo "symlink ${TMP_DIR}/go/bin/go to /usr/local/bin/go"
+echo "go is installed to ${TMP_DIR}/go/bin/go"
