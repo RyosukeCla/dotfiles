@@ -12,6 +12,7 @@ main() {
   else
     # install homebrew
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    mkdir -p $HOME/.nvm
   fi
 
 	cd ${DOT_DIR}
