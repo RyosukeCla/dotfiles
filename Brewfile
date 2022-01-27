@@ -2,7 +2,7 @@
 tap "homebrew/cask"
 tap "homebrew/bundle"
 tap "homebrew/core"
-tap "jesseduffield/lazydocker"
+tap "jesseduffield/lazydocker/lazydocker"
 
 brew "direnv"
 brew "fswatch"
