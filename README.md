@@ -32,6 +32,7 @@ $ ssh-keygen -t rsa -b 4096 -C "mail@address"
 # and gen key to ~/.ssh/github_rsa
 $ pbcopy < ~/.ssh/github_rsa.pub
 # set up ssh public key on github
+$ touch ~/.ssh/config
 $ cat <<EOT >> ~/.ssh/config
 Host github github.com
   HostName github.com
