@@ -105,9 +105,9 @@ function prompt_steeef_setup {
 
   # Define prompts.
   PROMPT="
-${_prompt_bg_colors[1]}%B${_prompt_ft_colors[1]} %n ${_prompt_ft_colors[2]}at ${_prompt_ft_colors[1]}%m ${_prompt_ft_colors[2]}in ${_prompt_ft_colors[1]}%~%b "'${vcs_info_msg_0_}'" %f%k
+${_prompt_ft_colors[2]}I'm at ${_prompt_ft_colors[1]}%~%b "'${vcs_info_msg_0_}'" %f%k
 "'$python_info[virtualenv]${editor_info[keymap]} '
-  RPROMPT=''
+  RPROMPT="${_prompt_ft_colors[2]}%*"
   LSCOLORS=gxfxcxdxxxegegagaggxgx
   ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=205'
 }
