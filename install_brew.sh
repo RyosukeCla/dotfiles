@@ -11,7 +11,7 @@ main() {
     echo "brew has already installed"
   else
     # install homebrew
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   fi
 
   cd ${DOT_DIR}
