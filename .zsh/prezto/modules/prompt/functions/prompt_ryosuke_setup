@@ -85,7 +85,7 @@ function prompt_steeef_setup {
 
   # Set editor-info parameters.
   # '%B%F{blue}❯%f%b'
-  zstyle ':prezto:module:editor:info:keymap:primary' format " %B${_prompt_ft_colors[2]}❥%f%b"
+  zstyle ':prezto:module:editor:info:keymap:primary' format " %B${_prompt_ft_colors[2]}$%f%b"
 
   # Set vcs_info parameters.
   zstyle ':vcs_info:*' enable bzr git
